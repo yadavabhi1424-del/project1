@@ -1,0 +1,62 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 220px;
+  background-color: #fffbfb;
+  color: rgb(1, 1, 1);
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.sidebar a:hover {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+.sidebar a.active {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+/* MAIN AREA */
+.main-area {
+  background-color: #ffffff;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 60px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #000000;
+}
+
+.content {
+  padding: 0;
+  min-height: calc(100vh - 60px);
+}
+
+

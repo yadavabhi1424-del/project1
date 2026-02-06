@@ -1,0 +1,123 @@
+/* Main container */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  background-color: #0f172a;
+  padding: 100px;
+  gap: 30px;
+}
+
+
+/* Left side (form) */
+.login-left {
+  flex: 1;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #020617;
+  color: #f1f5f9;
+
+  border-radius: 12px;
+
+}
+
+
+.login-left h1 {
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+  color: #cbd5f5;
+}
+
+/* Right side (info panel) */
+.login-right {
+  flex: 1;
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: white;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-radius: 12px;
+}
+
+.login-right h1 {
+  margin-bottom: 20px;
+}
+
+.login-right p {
+  margin-bottom: 20px;
+  color: #e0e7ff;
+}
+
+/* Feature list */
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.feature-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Form */
+.form-group {
+  margin-top: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #e5e7eb;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background-color: #020617;
+  color: #f1f5f9;
+}
+
+/* Button */
+.login-button {
+  margin-top: 30px;
+  padding: 12px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-button:hover {
+  opacity: 0.9;
+}
+
+/* Error message */
+.error-text {
+  color: #f87171;
+  margin-bottom: 10px;
+}
+
+/* Bottom link */
+.signup-text {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.signup-text a {
+  color: #60a5fa;
+  font-weight: 500;
+}
